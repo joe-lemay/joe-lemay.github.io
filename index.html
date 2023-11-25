@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe LeMay's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="page">
+        <div id="nav">
+            <div id="links">
+                <div class="link-swap">
+                    <a href="#nav">HOME</a>
+                    <a href="#projects">PROJECTS</a>
+                </div>
+                <img src="./imgs/croppedLogo.jpg" id="logo-img" alt="LOGO - Joe LeMay, software made simple" srcset="">
+                <div class="link-swap">
+                    <a href="#intro">ABOUT</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+                <div id="nav-burger">
+                    <div id="hamburger" class="ham-hide">
+                        <a class="burger-link" href="#nav" onclick="toggleBurger()">Home</a>
+                        <a class="burger-link" href="#projects" onclick="toggleBurger()">Projects</a>
+                        <a class="burger-link" href="#intro" onclick="toggleBurger()">About</a>
+                        <a class="burger-link" href="#contact" onclick="toggleBurger()">Contact</a>
+                    </div>
+                    <button id="burger-btn"><img id="burger-img" src="./imgs/burger-bar.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="quote">
+            <h1>"...Software made Simple..."</h1>
+        </div>
+        <div id="header">
+            <div id="contact-svgs">
+                <img class="contact-svg" src="./svgs/Linked-in.svg" alt="">
+                <img class="contact-svg" src="./svgs/discord2.svg" alt="">
+                <img class="contact-svg" src="./svgs/git-hub.svg" alt="">
+            </div>
+            <h1 id="intro" >Hi, I'm Joe LeMay, a software engineer from Canton, OH. <br> I enjoy hiking, singing to my dog, and
+                building robust, scalable, full-stack applications.</h1>
+        </div>
+        <div id="about">
+            <div id="about-text">
+                <h2>My mission is to help your business find afforable solutions. I believe software should be simple...
+                    simple to use, simple to scale, and simple to maintain.</h2>
+                <h2>Let me introduce you to my family. This is my wife Caleigh and I, and there underneath us is Daisy,
+                    the goldenest doodle. Yes, Daisy is as cool as she looks.</h2>
+            </div>
+            <div id="about-imgs">
+                <img src="./imgs/joe-kiwi-final.png" alt="Joe and Caleigh LeMay">
+                <img src="./imgs/daisy-final.png" alt="Dasiy the Golden Doodle">
+            </div>
+        </div>
+        <div id="skills">
+            <h1>Check out the skills...</h1>
+            <div id="skill-list">
+                <img class="skill-svg" src="./svgs/CSS.svg" alt="">
+                <img class="skill-svg" src="./svgs/Bootstrap.svg" alt="">
+                <img class="skill-svg" src="./svgs/HTML.svg" alt="">
+                <img class="skill-svg" src="./svgs/JavaScript.svg" alt="">
+                <img class="skill-svg" src="./svgs/JQuery.svg" alt="">
+                <img class="skill-svg" src="./svgs/NodeJS-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/MySQL-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/Python-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/Flask-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/RaspberryPi-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/AWS-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/Java-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/Spring-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/NextJS-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/Unity-Dark.svg" alt="">
+                <img class="skill-svg" src="./svgs/Photoshop.svg" alt="">
+            </div>
+            <h2>...dont see what you're looking for? I'm a fast learner.</h2>
+        </div>
+        <div id="projects">
+            <h1>Some Stuff I've Made</h1>
+            <div id="project-list">
+                <div class="project">
+                    <h3 clas="project-title">Pokedex</h3>
+                    <div class="project-img"><img src="./imgs/gears.png" alt=""></div>
+                </div>
+                <div class="project">
+                    <h3 clas="project-title">3D Vision</h3>
+                    <div class="project-img"><img src="./imgs/gears.png" alt=""></div>
+                </div>
+                <div class="project">
+                    <h3 clas="project-title">Nodes and Struts</h3>
+                    <div class="project-img"><img src="./imgs/gears.png" alt=""></div>
+                </div>
+                <div class="project">
+                    <h3 clas="project-title">Gravity Sim</h3>
+                    <div class="project-img"><img src="./imgs/gears.png" alt=""></div>
+                </div>
+                <div class="project">
+                    <h3 clas="project-title">MERN E-Commerce</h3>
+                    <div class="project-img"><img src="./imgs/gears.png" alt=""></div>
+                </div>
+                <div class="project">
+                    <h3 clas="project-title">Java Blogs</h3>
+                    <div class="project-img"><img src="./imgs/gears.png" alt=""></div>
+                </div>
+                <div class="project">
+                    <h3 clas="project-title">Dojo Platform Clone</h3>
+                    <div class="project-img"><img src="./imgs/gears.png" alt=""></div>
+                </div>
+                <div class="project">
+                    <h3 clas="project-title">Travel Share</h3>
+                    <div class="project-img"><img src="./imgs/gears.png" alt=""></div>
+                </div>
+                <div class="project">
+                    <h3 clas="project-title">Ecksoft</h3>
+                    <div class="project-img"><img src="./imgs/gears.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="c3884be0-c26c-4beb-a792-231944d8a86a">
+                <label for="">Full Name</label>
+                <input class="form-input" type="text" name="name" required>
+                <label for="">E-mail</label>
+                <input class="form-input" type="email" name="email" required>
+                <label for="">Message</label>
+                <textarea class="form-input" name="message" required></textarea>
+                <!-- <div class="h-captcha" data-captcha="true"></div> -->
+                <button onclick="" id="submit-message" type="submit">Contact Me</button>
+            </form>
+            <div id="contact-info">
+                <h3>Have a question? Interested in my services? Lets talk!</h3>
+                <h2>Contact</h2>
+                <p>joe.lemay.dev @gmail.com</p>
+                <h2>Based in</h2>
+                <h3>Canton, Ohio</h3>
+            </div>
+        </div>
+        <div id="contact-svgs">
+            <img src="./svgs/Linked-in.svg" alt="">
+            <img src="./svgs/discord2.svg" alt="">
+            <img src="./svgs/git-hub.svg" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+</body>
+
+</html>
