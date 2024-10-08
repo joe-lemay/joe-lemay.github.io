@@ -21,3 +21,7 @@ function clearForm(){
         input.value = "";
     }
 }
+
+function navigateTo(path){
+    window.location.href = path;
+}
