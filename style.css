@@ -192,6 +192,9 @@ border-bottom: 6px solid #302744cc ;
     min-width: 200px;
     max-width: 300px;
 }
+.project:hover{
+    background-color: #f4f5e1;
+}
 .project-img > img {
     height: 10vh;
     width: 10vh;
