@@ -23,5 +23,5 @@ function clearForm(){
 }
 
 function navigateTo(path){
-    window.location.href = path;
+    window.location.replace(path);
 }
