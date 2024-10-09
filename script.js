@@ -23,5 +23,12 @@ function clearForm(){
 }
 
 function navigateTo(path){
-    window.location.href = path;
+    window.open(path)
+}
+
+function sendEmail() {
+    var email = 'joe.lemay.dev06@gmail.com';
+    var subject = 'Lets Collaborate';
+    var emailBody = 'Hello Joe, Lets start something exciting!';
+    document.location = "mailto:" + email + "?subject=" + subject + "&body=" + emailBody
 }
