@@ -29,7 +29,7 @@
                         <a class="burger-link" href="#intro" onclick="toggleBurger()">About</a>
                         <a class="burger-link" href="#contact" onclick="toggleBurger()">Contact</a>
                     </div>
-                    <button id="burger-btn"><img id="burger-img" src="./imgs/burger-bar.png" alt=""></button>
+                    <button id="burger-btn"><img id="burger-img" src="./imgs/burger-bar.png" alt="Collapsable Menu"></button>
                 </div>
             </div>
         </div>
@@ -39,9 +39,9 @@
         </div>
         <div id="header">
             <div id="contact-svgs">
-                <img class="contact-svg" src="./svgs/Linked-in.svg" alt="">
-                <img class="contact-svg" src="./svgs/discord2.svg" alt="">
-                <img class="contact-svg" src="./svgs/git-hub.svg" alt="">
+                <img class="contact-svg" onclick="navigateTo('https://www.linkedin.com/in/jlemay3/')" src="./svgs/Linked-in.svg" alt="Linked In Link">
+                <img class="contact-svg" onclick="navigateTo('https://www.discordapp.com/users/834471173076418560')" src="./svgs/discord2.svg" alt="Discord Link">
+                <img class="contact-svg" onclick="navigateTo('https://github.com/joe-lemay')" src="./svgs/git-hub.svg" alt="Git-Hub Link">
             </div>
             <h1 id="intro" >Hi, I'm Joe LeMay, a software engineer from Canton, OH. <br> I enjoy hiking, singing to my dog, and
                 building robust, scalable, full-stack applications.</h1>
@@ -83,39 +83,39 @@
         <div id="projects">
             <h1>Some Stuff I've Made</h1>
             <div id="project-list">
-                <div class="project" onclick="navigateTo('https://github.com/joe-lemay/PokedexAI')">
+                <div class="project" onclick="navigateTo('https:/github.com/joe-lemay/PokedexAI')">
                     <h3 clas="project-title">Pokedex</h3>
                     <div class="project-img"><img src="./imgs/gears.png" alt=""></div>
                 </div>
-                <div class="project" onclick="navigateTo('https://github.com/joe-lemay/2.5dVision')">
+                <div class="project" onclick="navigateTo('https:/github.com/joe-lemay/2.5dVision')">
                     <h3 clas="project-title">3D Vision</h3>
                     <div class="project-img"><img src="./imgs/gears.png" alt=""></div>
                 </div>
-                <div class="project" onclick="navigateTo('https://github.com/joe-lemay/NodesAndStruts')">
+                <div class="project" onclick="navigateTo('https:/github.com/joe-lemay/NodesAndStruts')">
                     <h3 clas="project-title">Nodes and Struts</h3>
                     <div class="project-img"><img src="./imgs/gears.png" alt=""></div>
                 </div>
-                <div class="project" onclick="navigateTo('https://github.com/joe-lemay/GravitySim')">
+                <div class="project" onclick="navigateTo('https:/github.com/joe-lemay/GravitySim')">
                     <h3 clas="project-title">Gravity Sim</h3>
                     <div class="project-img"><img src="./imgs/gears.png" alt=""></div>
                 </div>
-                <div class="project" onclick="navigateTo('https://github.com/joe-lemay/StoryBookAI')">
+                <div class="project" onclick="navigateTo('https:/github.com/joe-lemay/StoryBookAI')">
                     <h3 clas="project-title">StoryBooK AI</h3>
                     <div class="project-img"><img src="./imgs/gears.png" alt=""></div>
                 </div>
-                <div class="project" onclick="navigateTo('https://github.com/joe-lemay/future-forecast')">
+                <div class="project" onclick="navigateTo('https:/github.com/joe-lemay/future-forecast')">
                     <h3 clas="project-title">Future Forecast</h3>
                     <div class="project-img"><img src="./imgs/gears.png" alt=""></div>
                 </div>
-                <div class="project" onclick="navigateTo('https://github.com/joe-lemay/DojoClone')">
+                <div class="project" onclick="navigateTo('https:/github.com/joe-lemay/DojoClone')">
                     <h3 clas="project-title">Dojo Platform Clone</h3>
                     <div class="project-img"><img src="./imgs/gears.png" alt=""></div>
                 </div>
-                <div class="project" onclick="navigateTo('https://github.com/joe-lemay/TripShare')">
+                <div class="project" onclick="navigateTo('https:/github.com/joe-lemay/TripShare')">
                     <h3 clas="project-title">Trip Share</h3>
                     <div class="project-img"><img src="./imgs/gears.png" alt=""></div>
                 </div>
-                <div class="project" onclick="navigateTo('https://ecksoft.com/')">
+                <div class="project" onclick="navigateTo('https:/ecksoft.com/')">
                     <h3 clas="project-title">Ecksoft</h3>
                     <div class="project-img"><img src="./imgs/gears.png" alt=""></div>
                 </div>
@@ -136,15 +136,15 @@
             <div id="contact-info">
                 <h3>Have a question? Interested in my services? Lets talk!</h3>
                 <h2>Contact</h2>
-                <p>joe.lemay.dev @gmail.com</p>
+                <p onclick="sendEmail()" class="pointer">joe.lemay.dev@gmail.com</p>
                 <h2>Based in</h2>
                 <h3>Canton, Ohio</h3>
             </div>
         </div>
         <div id="contact-svgs">
-            <img src="./svgs/Linked-in.svg" alt="">
-            <img src="./svgs/discord2.svg" alt="">
-            <img src="./svgs/git-hub.svg" alt="">
+            <img src="./svgs/Linked-in.svg" class="contact-svg" onclick="navigateTo('https://www.linkedin.com/in/jlemay3/')" alt="">
+            <img src="./svgs/discord2.svg" class="contact-svg" onclick="navigateTo('https://www.discordapp.com/users/834471173076418560')" alt="">
+            <img src="./svgs/git-hub.svg" class="contact-svg" onclick="navigateTo('https://github.com/joe-lemay')" alt="">
         </div>
     </div>
     <script src="script.js"></script>
